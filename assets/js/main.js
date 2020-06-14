@@ -9,12 +9,17 @@ function writePassword() {
 
     passwordText.value = password;
 }
+
+// generatePassword function should be below
+
+// *********************** function logic **********************
     // THEN I am presented with a series of prompts for password criteria
     // ??????? what series
     // WHEN prompted for password criteria
     // THEN I select which criteria to include in the password
     // ????? i thought that is a given
 
+    // collected all the data here *************************
     // ************ 1 PROMPT *************
     // ************ need validation ***********
     // WHEN prompted for the length of the password
@@ -25,6 +30,7 @@ function writePassword() {
     // WHEN I answer each prompt
     // THEN my input should be validated and at least one character type should be selected
     // each prompt needs to be validated...
+    // in this case, we should probably use a function to turn the length into a number
 
 
     // ************** 4 confirms **************
@@ -35,9 +41,10 @@ function writePassword() {
     // we need a confirm to ask the user if they want to use numeric
     // we need a confirm to ask the user if they want to use special characters
 
-    
+    // end of "collected all the data here" *************************
+    // using the number from above and the 4 booleans
 
-    // ************* need a function **************
+
     // WHEN all prompts are answered
     // THEN a password is generated that matches the selected criteria
     // all the information is gathered (all prompts are finished getting input)
@@ -47,7 +54,7 @@ function writePassword() {
     // THEN the password is either displayed in an alert or written to the page
     // either do an alert with password... or just check to see if my variable has a password
 
-    
+// *********************** end function logic **********************
 
 
 
